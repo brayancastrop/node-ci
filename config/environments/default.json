@@ -1,0 +1,9 @@
+{
+	"name": "node-ci",
+	"bsyslog": {
+        "host": "localhost",
+        "port": 514,
+        "name": "node-ci",
+        "facility": 17
+    }
+}

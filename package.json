@@ -1,0 +1,25 @@
+{
+  "name": "node-ci",
+  "version": "0.0.1",
+  "description": "Continuous integration server for node.js projects",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ci",
+    "continuous",
+    "integration",
+    "node.js"
+  ],
+  "author": "Brayan Castro",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.4.0",
+    "bunyan-syslog": "^0.3.0",
+    "hapi": "^9.0.3",
+    "lodash": "^3.10.1",
+    "nodegit": "^0.4.1",
+    "rootpath": "^0.1.2"
+  }
+}
